@@ -18,3 +18,9 @@
 > Adapter
 
 - Utilizado para converter uma determina interface para outra que os clientes esperam. Evita acoplamento.
+
+<br>
+
+> Bridge
+
+- Desacoplar uma abstração da sua implementação. Assim as duas podem variar de forma independente.
