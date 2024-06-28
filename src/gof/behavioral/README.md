@@ -14,3 +14,20 @@
 
 - Um objeto aponta para o outro. Cada um deles toma a decisão se vai realizar ou não o tratamento.
 
+<br>
+
+> Command
+
+- Encapsula uma solicitação (uma chamada, uma requisição) na forma de um objeto.
+
+- A ideia do padrão é separar quem chama de quem é chamado, encapsulando a operação dentro do objeto.
+
+<br>
+
+> Mediator
+
+- Defina um objeto que encapsula como um conjunto de objetos vai interagir.
+
+- Promove baixo acoplamento, pois um objeto não chama o outro diretamente.
+
+- Serve para criar um canal de comunicação entre objetos.
