@@ -7,7 +7,7 @@ export default interface AverageRepository {
 }
 
 export class AverageRepositoryDatabase implements AverageRepository {
-  DATABASE_URL = "postgres://ocfkcwaw:b7MmQLgY08ODJoy8z7_ayZ_vT4eYviRs@isabelle.db.elephantsql.com/ocfkcwaw"
+  DATABASE_URL = ""
 
   async save(average: Average): Promise<void> {
     const connection = pgp()(this.DATABASE_URL)

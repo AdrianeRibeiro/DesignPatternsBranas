@@ -8,7 +8,7 @@ export default interface GradeRepository {
 
 export class GradeRepositoryDatabase implements GradeRepository {
 
-  DATABASE_URL = "postgres://ocfkcwaw:b7MmQLgY08ODJoy8z7_ayZ_vT4eYviRs@isabelle.db.elephantsql.com/ocfkcwaw"
+  DATABASE_URL = ""
 
   async save(grade: Grade): Promise<void> {
     const connection = pgp()(this.DATABASE_URL)

@@ -31,3 +31,11 @@
 - Promove baixo acoplamento, pois um objeto não chama o outro diretamente.
 
 - Serve para criar um canal de comunicação entre objetos.
+
+<br>
+
+> Mediator
+
+- Serve para implementar uma máquina de estados e as suas transições.
+
+- Objeto que representa estados. A intenção é permitir que o objeto altere o seu comportamento por meio de mudanças de estado interno, onde cada estado é representado por uma classe.
