@@ -7,7 +7,7 @@ export default interface RoomRepository {
 }
 
 export class RoomRepositoryDatabase implements RoomRepository {
-  DATABASE_URL = "postgres://qknvqxwo:fdojpzJSxXLVn2c6Rp9qmnHhKWgbhVWs@isabelle.db.elephantsql.com/qknvqxwo"
+  DATABASE_URL = ""
 
   async getAvailableRoomsByPeriodAndCategory(checkinDate: Date, checkoutDate: Date, category: string): Promise<Room[]> {
     const connection = pgp()(this.DATABASE_URL)

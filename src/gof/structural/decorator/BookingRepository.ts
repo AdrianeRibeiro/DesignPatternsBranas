@@ -8,7 +8,7 @@ export default interface BookingRepository {
 }
 
 export class BookingRepositoryDatabase implements BookingRepository {
-  DATABASE_URL = "postgres://qknvqxwo:fdojpzJSxXLVn2c6Rp9qmnHhKWgbhVWs@isabelle.db.elephantsql.com/qknvqxwo"
+  DATABASE_URL = ""
 
   async save(booking: Booking): Promise<void> {
     const connection = pgp()(this.DATABASE_URL)
